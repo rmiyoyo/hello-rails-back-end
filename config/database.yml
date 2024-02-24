@@ -5,13 +5,13 @@ default: &default
 
 development:
   <<: *default
-  database: hello_rails_back_end_development_rmiyoyo
+  database: raphael_hello_backend_development
   username: postgres
   password: pass
 
 test:
   <<: *default
-  database: hello_rails_back_end_test_rmiyoyo
+  database: raphael_hello_backend_test
   username: postgres
   password: pass
 
